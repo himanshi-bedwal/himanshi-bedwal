@@ -2,32 +2,34 @@
   <img src="banner.svg" alt="Himanshi Bedwal Banner" width="100%" />
 </p>
 
-<h1 align="center">Hi 👋, I'm Himanshi Bedwal</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&lines=Aspiring+AI%2FML+Engineer;Python+Developer;Computer+Science+Student;Always+Learning+New+Things+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3500&pause=1000&color=FF4D6D&center=true&vCenter=true&width=700&lines=Aspiring+AI%2FML+Engineer;Python+Developer;Computer+Science+Student;Tech+Enthusiast;Open+Source+Learner" />
 </p>
 
 <p align="center">
   <a href="https://github.com/himanshi-bedwal">
-    <img src="https://img.shields.io/github/followers/himanshi-bedwal?label=Followers&style=for-the-badge&color=0A66C2" />
+    <img src="https://img.shields.io/github/followers/himanshi-bedwal?label=Followers&style=for-the-badge&color=8B1E3F"/>
   </a>
+  &nbsp;
   <a href="https://github.com/himanshi-bedwal">
-    <img src="https://img.shields.io/github/stars/himanshi-bedwal?affiliations=OWNER&style=for-the-badge&color=00C853" />
+    <img src="https://img.shields.io/github/stars/himanshi-bedwal?affiliations=OWNER&style=for-the-badge&color=A855F7"/>
   </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=himanshi-bedwal&style=for-the-badge&color=7E22CE"/>
 </p>
 
 ---
 
 # 👩‍💻 About Me
 
-🎓 Second-Year B.Tech CSE Student at **CGC University, Mohali**
+🎓 Second-Year **B.Tech CSE** Student at **CGC University, Mohali**
 
 🤖 Aspiring **AI/ML Engineer**
 
 🐍 Python Developer
 
-🌱 Currently learning:
+🌱 Currently Learning
 
 - Object-Oriented Programming (OOP)
 - Data Structures & Algorithms
@@ -35,34 +37,36 @@
 
 💡 Passionate about Artificial Intelligence, Open Source and Problem Solving.
 
-🎯 **Goal:** Build real-world AI applications and contribute to impactful projects.
+🎯 **Goal:** Build intelligent AI applications that solve real-world problems.
 
 ---
 
 # 🛠️ Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,c,cpp,html,git,github,vscode,mysql" />
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,html,git,github,vscode,mysql"/>
 </p>
 
-### 📚 Libraries
-
-- NumPy
-- Pandas
-- Matplotlib
+<p align="center">
+  <img src="https://img.shields.io/badge/NumPy-6D28D9?style=for-the-badge&logo=numpy&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Pandas-7E22CE?style=for-the-badge&logo=pandas&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Matplotlib-9333EA?style=for-the-badge"/>
+</p>
 
 ---
 
 # 📊 GitHub Statistics
 
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=himanshi-bedwal&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=himanshi-bedwal&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=himanshi-bedwal&show_icons=true&theme=radical&hide_border=true"/>
+  &nbsp;
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=himanshi-bedwal&layout=compact&theme=radical&hide_border=true"/>
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=himanshi-bedwal&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=himanshi-bedwal&theme=radical&hide_border=true"/>
 </p>
 
 ---
@@ -70,7 +74,7 @@
 # 📈 Contribution Graph
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=himanshi-bedwal&theme=tokyo-night&hide_border=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=himanshi-bedwal&theme=react-dark&hide_border=true"/>
 </p>
 
 ---
@@ -78,7 +82,7 @@
 # 🐍 Contribution Snake
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/himanshi-bedwal/himanshi-bedwal/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+  <img src="https://raw.githubusercontent.com/himanshi-bedwal/himanshi-bedwal/output/github-contribution-grid-snake.svg" alt="Contribution Snake"/>
 </p>
 
 ---
@@ -86,21 +90,21 @@
 # 📫 Connect With Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/himanshi-bedwal-b873073a4">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:himanshibedwal789@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/himanshi-bedwal">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+  <a href="https://www.linkedin.com/in/himanshi-bedwal-b873073a4">
+    <img src="https://img.shields.io/badge/LinkedIn-7E22CE?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:himanshibedwal789@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-C026D3?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/himanshi-bedwal">
+    <img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-<p align="center">
-✨ <b>"Learning, Building and Growing one project at a time."</b> ✨
-</p>
+<h3 align="center">
+✨ Code • Learn • Build • Repeat ✨
+</h3>
