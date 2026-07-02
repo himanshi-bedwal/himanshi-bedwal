@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05010d" />
+      <stop offset="50%" stop-color="#0f051d" />
+      <stop offset="100%" stop-color="#020005" />
+    </linearGradient>
+    
+    <linearGradient id="grid-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f2ff" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#7000ff" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#00f2ff" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="mountain-grad-back" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d0a34" />
+      <stop offset="100%" stop-color="#05010d" />
+    </linearGradient>
+    
+    <linearGradient id="mountain-grad-front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d1b4e" />
+      <stop offset="100%" stop-color="#0c0418" />
+    </linearGradient>
+
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2ff" />
+      <stop offset="50%" stop-color="#9d4edd" />
+      <stop offset="100%" stop-color="#00f2ff" />
+      <animate attributeName="x1" from="0%" to="100%" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" from="100%" to="200%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7000ff" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00f2ff"/>
+      <stop offset="50%" stop-color="#9d4edd"/>
+      <stop offset="75%" stop-color="#00f2ff"/>
+      <stop offset="100%" stop-color="#7000ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow-heavy" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="12" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-subtle" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <pattern id="cyber-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f2ff" stroke-width="0.5" stroke-opacity="0.15" />
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg-grad)" />
+
+  <g opacity="0.7">
+    <rect width="1280" height="320" fill="url(#cyber-grid)" />
+    <rect width="1280" height="320" fill="url(#grid-glow)" />
+  </g>
+
+  <g fill="#ffffff">
+    <circle cx="75" cy="45" r="1" opacity="0.6" />
+    <circle cx="230" cy="110" r="1.5" opacity="0.4" />
+    <circle cx="310" cy="60" r="0.8" opacity="0.7" />
+    <circle cx="460" cy="130" r="1.2" opacity="0.5" />
+    <circle cx="850" cy="70" r="1" opacity="0.8" />
+    <circle cx="970" cy="140" r="1.6" opacity="0.4" />
+    <circle cx="1130" cy="50" r="1.2" opacity="0.6" />
+    <circle cx="1220" cy="115" r="0.8" opacity="0.5" />
+    
+    <circle cx="120" cy="80" r="2" opacity="0.8">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="380" cy="40" r="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.1;0.9;0.1" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="720" cy="50" r="2.5" opacity="0.6" filter="url(#glow-subtle)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="90" r="1.8" opacity="0.7">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g transform="translate(640, 200)" opacity="0.15">
+    <circle r="90" fill="none" stroke="#7000ff" stroke-width="2" filter="url(#glow-heavy)" />
+    <circle r="70" fill="none" stroke="#00f2ff" stroke-width="1" stroke-dasharray="5 5" />
+  </g>
+
+  <path d="M-50 320 L120 160 L290 260 L480 130 L680 240 L910 110 L1120 230 L1260 150 L1350 320 Z" fill="url(#mountain-grad-back)" stroke="#7000ff" stroke-width="0.5" opacity="0.9" />
+
+  <path d="M-50 320 L50 210 L220 280 L400 170 L600 270 L780 150 L1000 260 L1180 180 L1350 320 Z" fill="url(#mountain-grad-front)" stroke="#00f2ff" stroke-width="1" stroke-opacity="0.7" />
+
+  <line x1="0" y1="318" x2="1280" y2="318" stroke="url(#line-grad)" stroke-width="3" filter="url(#glow-heavy)" />
+
+  <g filter="url(#glow-subtle)">
+    <circle cx="200" cy="220" r="3" fill="#00f2ff">
+      <animate attributeName="cy" values="220;200;220" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <polyline points="200,220 230,195" fill="none" stroke="#00f2ff" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="points" values="200,220 230,195; 200,200 230,195; 200,220 230,195" dur="6s" repeatCount="indefinite" />
+    </polyline>
+    
+    <circle cx="1080" cy="180" r="2.5" fill="#9d4edd">
+      <animate attributeName="cy" values="180;205;180" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="5s" repeatCount="indefinite" />
+    </circle>
+
+    <circle cx="950" cy="240" r="3.5" fill="#00f2ff">
+      <animate attributeName="cy" values="240;220;240" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="7s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle cx="320" cy="160" r="2" fill="#9d4edd">
+      <animate attributeName="cy" values="160;180;160" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <line x1="440" y1="135" x2="840" y2="135" stroke="url(#line-grad)" stroke-width="1" />
+  <line x1="500" y1="215" x2="780" y2="215" stroke="url(#line-grad)" stroke-width="1" />
+
+  <text x="640" y="120" 
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-weight="900" 
+        font-size="54" 
+        fill="url(#text-grad)" 
+        text-anchor="middle" 
+        letter-spacing="8"
+        filter="url(#glow-heavy)">
+    HIMANSHI BEDWAL
+  </text>
+
+  <text x="640" y="185" 
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-weight="600" 
+        font-size="16" 
+        fill="#e2e8f0" 
+        text-anchor="middle" 
+        letter-spacing="4"
+        opacity="0.9"
+        filter="url(#glow-subtle)">
+    AI/ML ENGINEER • PYTHON DEVELOPER • OPEN SOURCE CONTRIBUTOR
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite" />
+  </text>
+
+  <path d="M 30,30 L 60,30 M 30,30 L 30,60" fill="none" stroke="#00f2ff" stroke-width="2" opacity="0.6" />
+  <path d="M 1250,30 L 1220,30 M 1250,30 L 1250,60" fill="none" stroke="#00f2ff" stroke-width="2" opacity="0.6" />
+  <path d="M 30,290 L 60,290 M 30,290 L 30,260" fill="none" stroke="#00f2ff" stroke-width="2" opacity="0.6" />
+  <path d="M 1250,290 L 1220,290 M 1250,290 L 1250,260" fill="none" stroke="#00f2ff" stroke-width="2" opacity="0.6" />
+</svg>
